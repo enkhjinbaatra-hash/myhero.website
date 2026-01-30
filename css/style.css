@@ -801,12 +801,10 @@ body {
   }
 }
 .about-image img {
-  border: 4px solid #c9a36a;
-  border-radius: 16px;
+  display: block;
+  width: 100%;
+  height: auto;
   max-width: 100%;
-}
-.about-image img {
-  border: none;
   border-radius: 18px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
